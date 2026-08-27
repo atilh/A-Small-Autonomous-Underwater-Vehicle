@@ -1,4 +1,4 @@
-# dvltest1：AUV 飞控与 DVL 联合控制程序
+# AUV 飞控与 DVL 联合控制程序
 
 `dvltest1.py` 是一个面向真实 AUV/ROV 平台的 Python 控制程序。它通过 MAVLink 与 Pixhawk/ArduSub 类飞控通信，通过 TCP 接收 DVL（多普勒测速仪）的局部位置数据，并提供手动推进器控制、PID 定深、航向调整、航点前进和拍照等任务能力。
 
